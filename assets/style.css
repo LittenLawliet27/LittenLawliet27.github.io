@@ -1,0 +1,32 @@
+:root{
+  --bg:#fafafa; --text:#111; --card:#fff; --accent:#7b3cff;
+}
+[data-theme="dark"]{ --bg:#0b0b0f; --text:#e6e6e9; --card:#081025; --accent:#9b6bff; }
+
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial;color:var(--text);background:linear-gradient(180deg,rgba(0,0,0,0.02),transparent),var(--bg);min-height:100vh;display:flex;flex-direction:column}
+.site-header{display:flex;justify-content:space-between;align-items:center;padding:16px 20px;background:rgba(0,0,0,0.03);backdrop-filter:blur(4px)}
+.brand{font-weight:700}
+.controls{display:flex;gap:8px;align-items:center}
+.controls input{padding:8px;border-radius:8px;border:1px solid rgba(0,0,0,0.08)}
+.controls select, .controls button{padding:8px;border-radius:8px;border:1px solid rgba(0,0,0,0.08);background:var(--card)}
+.tagbar{padding:12px 20px;display:flex;gap:8px;flex-wrap:wrap}
+.tag{background:var(--card);padding:6px 10px;border-radius:999px;border:1px solid rgba(0,0,0,0.06);cursor:pointer}
+.grid{display:grid;gap:18px;padding:20px;grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
+.card{background:var(--card);border-radius:12px;padding:14px;box-shadow:0 6px 18px rgba(13,12,20,0.06);display:flex;flex-direction:column;gap:8px}
+.card img{width:100%;height:140px;object-fit:cover;border-radius:8px}
+.card h3{margin:0;font-size:1.05rem}
+.meta{color:rgba(0,0,0,0.55);font-size:0.9rem}
+.card .tags{display:flex;gap:6px;flex-wrap:wrap}
+.card .tags .tag-small{background:transparent;border:1px solid rgba(0,0,0,0.06);padding:4px 8px;border-radius:999px;font-size:0.8rem}
+.card .actions{margin-top:auto;display:flex;gap:8px}
+.button{padding:8px 10px;border-radius:8px;border:1px solid rgba(0,0,0,0.06);background:transparent;cursor:pointer}
+
+.modal{position:fixed;inset:0;display:none;align-items:center;justify-content:center;padding:24px}
+.modal[aria-hidden="false"]{display:flex;background:linear-gradient(0deg,rgba(2,6,23,0.6),rgba(2,6,23,0.2))}
+.modal-content{width:100%;max-width:880px;background:var(--card);border-radius:12px;padding:20px;position:relative;box-shadow:0 20px 60px rgba(2,6,23,0.35);max-height:90vh;overflow:auto}
+.modal-close{position:absolute;right:12px;top:12px;border:0;background:transparent;font-size:1.2rem;cursor:pointer}
+.detail-body{margin-top:12px}
+.links a{display:inline-block;margin-right:8px;margin-top:10px}
+.footer{text-align:center;padding:16px;color:rgba(0,0,0,0.6)}
+@media (max-width:600px){ .grid{grid-template-columns:repeat(1,1fr)} .card img{height:120px} }
