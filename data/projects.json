@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Example Project 1",
+      "description": "Add a description of your first project here",
+      "tags": ["JavaScript", "Web"],
+      "link": "https://github.com/LittenLawliet27",
+      "imageUrl": ""
+    },
+    {
+      "id": 2,
+      "title": "Example Project 2",
+      "description": "Add a description of your second project here",
+      "tags": ["Python", "Development"],
+      "link": "https://github.com/LittenLawliet27",
+      "imageUrl": ""
+    },
+    {
+      "id": 3,
+      "title": "Example Project 3",
+      "description": "Add a description of your third project here",
+      "tags": ["Web Development", "Portfolio"],
+      "link": "https://github.com/LittenLawliet27",
+      "imageUrl": ""
+    }
+  ]
+}

@@ -1,3 +1,51 @@
 # LittenLawliet27.github.io
 
-A central hub for all my projects! Read [Wiki](https://github.com/LittenLawliet27/LittenLawliet27.github.io/wiki) to learn about me or my projects.
+A well-organized portfolio website showcasing projects and work.
+
+## 📁 Project Structure
+
+```
+LittenLawliet27.github.io/
+├── index.html              # Main homepage
+├── css/
+│   └── style.css          # Main stylesheet
+├── js/
+│   └── main.js            # Main JavaScript
+├── pages/
+│   ├── about.html         # About page
+│   ├── projects.html      # Projects showcase
+│   └── contact.html       # Contact information
+├── data/
+│   └── projects.json      # Project data
+└── README.md              # This file
+```
+
+## 🚀 Features
+
+- **Responsive Design**: Mobile-friendly layout
+- **Clean Navigation**: Easy to navigate between pages
+- **Project Showcase**: Display your work with tags and descriptions
+- **Modern Styling**: Professional look with gradient effects
+- **Easy to Customize**: Well-organized structure makes updates simple
+
+## 📝 How to Use
+
+1. Update `data/projects.json` with your actual projects
+2. Customize the content in each HTML page (about.html, projects.html, etc.)
+3. Modify colors and styling in `css/style.css`
+4. Add your social links and contact information
+
+## 🎨 Customization
+
+- **Colors**: Edit the color values in `css/style.css`
+- **Content**: Update HTML files in the `pages/` directory
+- **Projects**: Modify `data/projects.json` to add your projects
+- **Scripts**: Add custom functionality in `js/main.js`
+
+## 📖 Documentation
+
+For more details about specific projects, visit the [Wiki](https://github.com/LittenLawliet27/LittenLawliet27.github.io/wiki).
+
+## 📄 License
+
+All rights reserved © 2026 LittenLawliet27
