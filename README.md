@@ -1,14 +1,20 @@
 # LittenLawliet27.github.io
 
-A central hub for all my projects! Read [the Wiki](Wiki) to learn about me or my projects.
+Welcome to the central hub for all of my projects!
 
-# Contributors
-Anyone wanting to contribute to any of my projects are welcome! But not required, if you do plan to contribute, follow these four steps:
+You can browse my projects here, or visit the Wiki to learn more about me and the projects I work on.
 
-- Make sure the change makes sense
-- Test if your change actually works
-- Give a description of the change
-- Open a pull request and name your change
+# Contributing
 
+Contributions to any of my projects are always welcome! While contributing isn’t required, please follow these guidelines when submitting changes:
 
-Go to [LICENSES](Licenses) for open-sourceness of my projects.
+* Make sure your change makes sense and fits the project.
+* Test your changes to make sure everything works as expected.
+* Describe your changes clearly so others understand what was changed and why.
+* Open a pull request and give it a clear, descriptive name.
+
+Thank you for taking the time to contribute!
+
+# Licenses
+
+For information about the open-source licenses used by my projects, see the [Licenses](Licenses) page.
