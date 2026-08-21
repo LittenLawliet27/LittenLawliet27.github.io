@@ -2,7 +2,7 @@
 
 Welcome to the central hub for all of my projects!
 
-You can browse my projects here, or visit the Wiki to learn more about me and the projects I work on.
+You can browse my projects here, or visit the [Wiki](Wiki) to learn more about me and the projects I work on.
 
 # Contributing
 
